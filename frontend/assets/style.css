@@ -22,7 +22,7 @@ a{
 }
 body{
     background-color:var(--background-color);
-    min-height: 100vh;
+    min-height: 100dvh;
     width: 100%;
     font-family: "Open Sans", serif;
     display: flex;
@@ -174,6 +174,7 @@ body{
 
 
 .header_picture{
+    position: relative;
     width:900px;
     height: 350px;
     padding-right:9rem;
@@ -192,7 +193,7 @@ body{
 
 }
 .header_picture p:nth-of-type(2){
-    top: 300px;
+    top: 60%;
 
 }
 
@@ -219,6 +220,7 @@ body{
 }
 
 .opportunities-info{
+    position: relative;
    text-align: center;
    margin: 2rem;
    
@@ -230,8 +232,8 @@ body{
 }
 .opportunities-info p{
     position: absolute;
-    top: 750px;
-    left: 1080px;
+    top:50%;
+    left: 60%;
     background-color: rgba(0, 0, 0, 0.376);
     font-size: 1.4rem;
     font-weight: 600;
@@ -369,7 +371,7 @@ body{
     
 }
 
-.signup-link{
+.newsletter-link{
     border: 1px solid #ffffff ;
     background-color: #000000;
     padding: .4rem 2rem;
@@ -377,3 +379,88 @@ body{
 
 }
 
+
+
+
+@media (min-width:350px) and (max-width:710px){
+
+
+    
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.card{
+    width: 400px;
+    height:300px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: var(--card-backgorund);
+    flex-grow: .1;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    background-color:var(--footer-color);
+    padding: 1rem;
+    margin-top: 10px;
+}
+.quicklinks-ul h3{
+    border-bottom: 2px solid #ffffff;
+    
+}
+
+
+
+.socials-ul h3{
+    margin-top: 2rem;
+}
+
+
+/* .newsletter{
+
+} */
+.newsletter p {
+    margin-top: 2rem;
+    margin-bottom: 15px;
+}
+.newsletter input{
+    padding: .6rem 7rem .6rem .3rem;
+    border-radius: 2rem;
+    margin-bottom: 20px;
+    color:var(--primary--font);
+    font-size: 1.2rem;
+    background-color: #000000;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 255, .2);
+    
+}
+
+.newsletter-link{
+    border: 1px solid #ffffff ;
+    background-color: #000000;
+    padding: .4rem 2rem;
+    border-radius: 1rem;
+
+}
+
+
+
+
+}
