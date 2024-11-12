@@ -304,6 +304,48 @@ body{
 
 /* End of home page style */
 
+/* About page style */
+
+#about_content{
+    font-weight: 400;
+    padding: 1.5rem;
+}
+
+.introduction-section{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    text-wrap: balance;
+    align-content: baseline;
+
+
+}
+.introduction-section img{
+    width: 2000px;
+    height: 600px;
+    padding: 2rem;
+}
+
+.about-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(#61576844, #5a5d80);
+}
+.about-gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 5px 10px;
+}
+#about_content p{
+    text-wrap: pretty;
+    line-height: 1.5;
+}
+
+
+
+
+/* End of about page style */
+
 
 
 
