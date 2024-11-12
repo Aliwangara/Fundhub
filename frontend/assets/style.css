@@ -352,7 +352,7 @@ body{
     font-weight: 200;
 }
 
-.input a{
+.input-submit{
     text-align: center;
    margin: auto;
    background-color: rgba(250, 235, 215, 0.678);
@@ -360,10 +360,47 @@ body{
    border-radius:.6rem ;
    width: 40%;
 }
+.input p{
+    padding-top: 1rem;
+    text-align: center;
+}
 
+.login-link{
+    color: aqua;
+}
 
+.or{
+    text-align: center;
+    position: relative;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.or::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    top: 70%;
+    left: 15%;
+}
+.or::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    top: 70%;
+    right: 15%;
+}
 
-
+.google-signup{
+    background-color: #ffffff;
+    color: #000000;
+    margin: auto;
+    padding: 1rem;
+}
 
 
 /* End of signup page */
