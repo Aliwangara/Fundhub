@@ -318,18 +318,25 @@ body{
 
 /* Signup page style */
 
-#Signup-container{
+#main_signup_container{
+    background-image: url(../assets/images/signup-bg/signup_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Signup-container{
     width: 30%;
     border-radius: 1rem;
     justify-content: center;
-    margin: auto;
+    margin:5rem auto;
     background-color: var(--background-color);
     box-shadow: 15px 0px 110px 1px rgba(255,255,255,1);
     color: var(--primary--font);
     padding: 2rem;
 
 }
-#Signup-container h2{
+.Signup-container h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 800;
@@ -344,9 +351,9 @@ body{
 }
 .input input{
     border: 1px solid white;
-    border-radius:2rem;
+    border-radius:.5rem;
     background-color: #000000;
-    padding: 1rem 5rem;
+    padding: 1rem;
     margin: .5rem;
     font-size: 1rem;
     font-weight: 200;
@@ -358,7 +365,7 @@ body{
    background-color: rgba(250, 235, 215, 0.678);
    padding: 1rem .5rem;
    border-radius:.6rem ;
-   width: 40%;
+   width: 100%;
 }
 .input p{
     padding-top: 1rem;
@@ -399,7 +406,7 @@ body{
     background-color: #ffffff;
     color: #000000;
     margin: auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 
