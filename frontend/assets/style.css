@@ -316,6 +316,67 @@ body{
 
 
 
+/* Signup page style */
+
+#Signup-container{
+    width: 30%;
+    border-radius: 1rem;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--background-color);
+    box-shadow: 15px 0px 110px 1px rgba(255,255,255,1);
+    color: var(--primary--font);
+    padding: 2rem;
+
+}
+#Signup-container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.input input{
+    border: 1px solid white;
+    border-radius:2rem;
+    background-color: #000000;
+    padding: 1rem 5rem;
+    margin: .5rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.input a{
+    text-align: center;
+   margin: auto;
+   background-color: rgba(250, 235, 215, 0.678);
+   padding: 1rem .5rem;
+   border-radius:.6rem ;
+   width: 40%;
+}
+
+
+
+
+
+
+/* End of signup page */
+
+
+
+
+
+
+
+
+
+
 
 
 #footer{
