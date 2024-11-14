@@ -337,6 +337,7 @@ body{
     margin: 5px 10px;
 }
 #about_content p{
+    margin-top: 1.5rem;
     text-wrap: pretty;
     line-height: 1.5;
 }
@@ -535,10 +536,11 @@ body{
     /* start Nav bar */
     .nav{
         background-color: var(--navbar-background);
-        padding:1rem 2rem;
+        padding:1rem 0;
         display: flex;
         flex-direction: column;
         border-radius: 5px;
+        overflow-x: hidden;
     
     
     
@@ -558,7 +560,7 @@ body{
         margin-right: 0;
         list-style: none;
     
-        padding: .5rem;
+        padding: .3rem;
     
     
     }
@@ -571,7 +573,6 @@ body{
 .card-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-top: 20px;
     
 }
@@ -640,7 +641,7 @@ body{
 .values{
     border-top: 1px solid #80808044;
     border-bottom:1px solid #80808044 ;
-    padding: 1rem;
+    padding: 1rem 0rem;
 }
 .values p{
     padding: .5rem 0;
@@ -656,8 +657,10 @@ body{
     
 }
 .opportunities-info p{
-    top:40%;
-    left: 55%;
+    top:50%;
+    left: 60%;
+    padding: 2rem 1rem;
+    border-radius: 2rem;
 }
 .whats_available{
      
@@ -726,6 +729,123 @@ body{
 
 
 
+/* About page style */
+
+#about_content{
+    font-weight: 400;
+    padding: 1rem;
+    overflow-x: hidden;
+}
+
+.introduction-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    text-wrap: balance;
+    align-content: baseline;
+
+
+}
+.introduction-section img{
+    max-width: 100%;
+    padding: 0;
+}
+
+.about-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    background: linear-gradient(#61576844, #5a5d80);
+}
+.about-gallery img{
+    width: 300px;
+    height: 200px;
+    margin: 5px 10px;
+}
+#about_content p{
+    margin-top: 1.5rem;
+    text-wrap: pretty;
+    line-height: 1.5;
+}
+
+
+
+
+/* End of about page style */
+
+
+
+
+
+
+
+/* Signup page style */
+
+#main_signup_container{
+    background-image: url(../assets/images/signup-bg/signup_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Signup-container{
+    width: 80%;
+    border-radius: 1rem;
+    justify-content: center;
+    margin:5rem auto;
+    background-color: var(--background-color);
+    box-shadow: 15px 0px 110px 1px rgba(255,255,255,1);
+    color: var(--primary--font);
+    padding: 2rem;
+
+}
+
+.or{
+    text-align: center;
+    position: relative;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
+.or::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    top: 70%;
+    left: 6px;
+}
+.or::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    top: 70%;
+    right: 6px;
+}
+
+.google-signup{
+    background-color: #ffffff;
+    color: #000000;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+
+/* End of signup page */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -739,8 +859,9 @@ body{
     flex-direction: column;
     margin-top: auto;
     background-color:var(--footer-color);
-    padding: 1rem;
+    padding: 0;
     margin-top: 10px;
+    overflow-x: hidden;
 }
 .quicklinks-ul h3{
     border-bottom: 2px solid #ffffff;
